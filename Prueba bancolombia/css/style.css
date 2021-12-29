@@ -1,0 +1,135 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.home-wrapper {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6 )),url(../images/background.jpg) no-repeat center top;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+    background-color: rgba(48, 48, 48, 0.5);
+}
+
+header img {
+    width: 200px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 10px 15px;
+
+}
+
+header nav a.active {
+    background: #FF1616;
+    border-radius: 3px;
+
+}
+
+#home {
+    text-align: center;
+    padding:200px 0 150px;
+}
+
+#home h1 {
+    font-size: 68px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+
+#home .divider {
+    width: 80px;
+    border-top: 5px solid #FF1616;
+    margin: 0 auto;
+}
+
+#home p {
+    font-size: 24px
+    margin-top: 40px;
+}
+
+#home .social {
+    margin-top: 80px;
+}
+
+#home .social a {
+    color: white;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: black;
+    font-size: 24px;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    margin-right: 10px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+#home .social a:hover {
+    background-color: #FF1616;
+}
+
+
+
+
+
+.container {
+   width: 992px;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+
+
+section {
+    padding: 80px 0;
+}
+
+section h2{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#PRINCIPALES .box {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+}
+
+#PRINCIPALES .box img {
+    width: 100%;
+}
+
+
+
+footer {
+    padding: 90px 0;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: black;
+}
